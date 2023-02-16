@@ -1,18 +1,16 @@
-import { View, Text, StyleSheet } from "react-native";
+import { Header } from "@components/Header";
+import { Highlight } from "@components/Highlight";
+
+import { Container } from "./styles";
 
 export function Groups() {
   return (
-    <View style={styles.container}>
-      <Text>Hello World!</Text>
-    </View>
+    <Container>
+      <Header />
+      <Highlight
+        title="Turmas"
+        subtitle="jogue com a sua turma"
+      />
+    </Container>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
