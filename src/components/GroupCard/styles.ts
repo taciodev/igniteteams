@@ -19,7 +19,7 @@ export const Container = styled(TouchableOpacity)`
 `;
 
 
-export const Text = styled.Text`
+export const Title = styled.Text`
   margin-left: 20px;
 
   font-size: ${({ theme }) => theme.FONT_SIZE.MD}px;
